@@ -1,0 +1,22 @@
+# mkdocs.yml
+
+# -------------------------------------------------------------
+# CONFIGURACIÓN GENERAL DEL SITIO
+# -------------------------------------------------------------
+site_name: Documentación de la Actividad
+
+# -------------------------------------------------------------
+# ESTRUCTURA DE NAVEGACIÓN (MENÚ)
+# -------------------------------------------------------------
+# Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
+nav:
+  - Inicio: index.md
+  - '1. Documentación y Depuración': 'Documentación y prueba del programa/Documentación de Apartado 1 y 2 .md'
+  - '2. Tests Unitarios': ' Realización de los test unitarios de la aplicación./Documentación del apartado 3.md'
+  - '3. Ejecución Sandbox': 'Ejecución de la aplicación en un entorno controlado/Ejecución de la aplicación en un entorno controlado.md'
+  - '4. Reflexión Seguridad': 'Reflexión sobre comparación de la infraestructura de seguridad de los lenguajes./Reflexión código.md'
+ 
+# -------------------------------------------------------------
+# DIRECTORIOS
+# -------------------------------------------------------------
+docs_dir: doc
