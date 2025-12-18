@@ -4,10 +4,10 @@ site_author: Francisco Vázquez
 
 nav:
   - Inicio: index.md
-  - '1. Documentación': 'Documentación y prueba del programa/Documentación de Apartado 1 y 2 .md'
-  - '2. Tests Unitarios': ' Realización de los test unitarios de la aplicación./Documentación del apartado 3.md'
-  - '3. Sandbox': 'Ejecución de la aplicación en un entorno controlado/Ejecución de la aplicación en un entorno controlado.md'
-  - '4. Reflexión': 'Reflexión sobre comparación de la infraestructura de seguridad de los lenguajes./Reflexión código.md'
+  - '1. Documentación y prueba del programa': 'Documentación y prueba del programa/Documentación de Apartado 1 y 2 .md'
+  - '2. Realización de los test unitarios de la aplicación.': ' Realización de los test unitarios de la aplicación./Documentación del apartado 3.md'
+  - '3. Ejecución de la aplicación en un entorno controlado': 'Ejecución de la aplicación en un entorno controlado/Ejecución de la aplicación en un entorno controlado.md'
+  - '4. Reflexión del código': 'Reflexión sobre comparación de la infraestructura de seguridad de los lenguajes./Reflexión código.md'
 
 docs_dir: doc
 
