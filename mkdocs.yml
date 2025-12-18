@@ -15,12 +15,6 @@ nav:
   - '2. Tests Unitarios': ' Realización de los test unitarios de la aplicación./Documentación del apartado 3.md'
   - '3. Ejecución Sandbox': 'Ejecución de la aplicación en un entorno controlado/Ejecución de la aplicación en un entorno controlado.md'
   - '4. Reflexión Seguridad': 'Reflexión sobre comparación de la infraestructura de seguridad de los lenguajes./Reflexión código.md'
-  - 'Estructura Proyecto':
-    - src/lavadero.py: src/lavadero.py
-    - src/main_app.py: src/main_app.py
-    - tests/test_lavadero_unittest.py: tests/test_lavadero_unittest.py
-  - 'Ejecución Tests': 'tests/ejecucion_tests.md'
-
 # -------------------------------------------------------------
 # DIRECTORIOS
 # -------------------------------------------------------------
