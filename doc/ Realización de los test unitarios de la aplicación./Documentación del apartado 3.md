@@ -58,7 +58,13 @@ En el test test_lavadero_unittest.py hay que cambiar lo siguiente:
 ![alt text](image-9.png)
 
 
-- **Al terminar de corregir los fallos y a la hora de hacer los test tiene que salir que estan todas pasadas**:
+2. Ejecutar las pruebas:
+```bash
+PYTHONPATH=src pytest  tests/test_lavadero_unittest.py -v
+```
+![alt text](image-15.png)
+
+- **Al terminar de corregir los fallos y a la hora de hacer los test tiene que salir que estan todas pasados**:
 
 ![alt text](image-7.png)
 
