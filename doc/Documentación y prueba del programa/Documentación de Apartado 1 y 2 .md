@@ -1,7 +1,7 @@
 # 1. Documentación y prueba del programa
 ## Apartado 1:
 - En el siguiente enlace te llevará a la documentación de Jupyter noteboock:
-[Documetación del programa en jupyter noteboock](../../Jupyter%20NotebookApartado1.md)
+[Documetación del programa en jupyter noteboock](Jupyter%20NotebookApartado1.md)
 
 ## Apartado 2:
 
