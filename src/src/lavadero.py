@@ -24,7 +24,7 @@ class Lavadero:
         self.__secado_a_mano = False
         self.__encerado = False
 
-    # ----------------- Properties -----------------
+    
     @property
     def ingresos(self):
         return self.__ingresos
@@ -49,7 +49,7 @@ class Lavadero:
     def encerado(self):
         return self.__encerado
 
-    # ----------------- Operaciones -----------------
+    
     def terminar(self):
         """Resetea el lavadero a estado inicial, manteniendo los ingresos."""
         self.__fase = self.FASE_INACTIVO
@@ -139,7 +139,7 @@ class Lavadero:
         else:
             raise RuntimeError(f"Estado no válido: Fase {self.__fase}.")
 
-    # ----------------- NUEVO: Para main_app.py -----------------
+    
     def imprimir_estado(self):
         """Imprime el estado actual del lavadero para main_app.py."""
         estados = [
@@ -156,7 +156,7 @@ class Lavadero:
         print(f"Encerado: {'Sí' if self.__encerado else 'No'}")
         print("-" * 40)
 
-    # ----------------- Funciones auxiliares para tests -----------------
+ 
     def ejecutar_y_obtener_fases(self, prelavado, secado, encerado):
         """Ejecuta un ciclo completo y devuelve la lista de fases visitadas (para tests)."""
         self.hacerLavado(prelavado, secado, encerado)
