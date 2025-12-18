@@ -1,9 +1,9 @@
 # 1. Documentación y prueba del programa
-## Apartado 1:
+## Apartado 1  jupyter noteboock:
 - En el siguiente enlace te llevará a la documentación de Jupyter noteboock:
 [Documetación del programa en jupyter noteboock](Jupyter%20NotebookApartado1.md)
 
-## Apartado 2:
+## Apartado 2  Ejecuta el programa mediante las opciones de Ejecución y Depuración del IDE.:
 
 * Como vemos en la imagen a la hora de ejecutar el programa nos da un error :
 ![alt text](image.png)
