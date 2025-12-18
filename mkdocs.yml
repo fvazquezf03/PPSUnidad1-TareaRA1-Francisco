@@ -1,22 +1,100 @@
-# mkdocs.yml
-
 # -------------------------------------------------------------
 # CONFIGURACIÓN GENERAL DEL SITIO
 # -------------------------------------------------------------
-site_name: Documentación de la Actividad
+site_name: PPS Unidad1-TareaRA1-FranciscoVazquez
+site_description: 'Documentación completa Tarea RA1 - Lavadero de Coches'
+site_author: Francisco Vázquez
+copyright: '© 2025 Francisco Vázquez - Licencia CC BY-NC-SA 4.0'
 
 # -------------------------------------------------------------
-# ESTRUCTURA DE NAVEGACIÓN (MENÚ)
+# Indice
 # -------------------------------------------------------------
-# Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
 nav:
   - Inicio: index.md
   - '1. Documentación y Depuración': 'Documentación y prueba del programa/Documentación de Apartado 1 y 2 .md'
   - '2. Tests Unitarios': ' Realización de los test unitarios de la aplicación./Documentación del apartado 3.md'
   - '3. Ejecución Sandbox': 'Ejecución de la aplicación en un entorno controlado/Ejecución de la aplicación en un entorno controlado.md'
   - '4. Reflexión Seguridad': 'Reflexión sobre comparación de la infraestructura de seguridad de los lenguajes./Reflexión código.md'
- 
+  - 'Estructura Proyecto':
+    - src/lavadero.py: src/lavadero.py
+    - src/main_app.py: src/main_app.py
+    - tests/test_lavadero_unittest.py: tests/test_lavadero_unittest.py
+  - 'Ejecución Tests': 'tests/ejecucion_tests.md'
+
 # -------------------------------------------------------------
 # DIRECTORIOS
 # -------------------------------------------------------------
 docs_dir: doc
+
+# -------------------------------------------------------------
+# TEMA Y ESTILO
+# -------------------------------------------------------------
+theme:
+  name: material
+  language: es
+  features:
+    - content.code.copy
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  icon:
+    logo: material/car-wash
+
+# -------------------------------------------------------------
+# PLUGINS
+# -------------------------------------------------------------
+plugins:
+  - search
+
+# -------------------------------------------------------------
+# EXTENSIONES MARKDOWN
+# -------------------------------------------------------------
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+#-----------------
+#CSS
+#----------------- 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
