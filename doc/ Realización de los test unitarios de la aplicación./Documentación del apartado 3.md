@@ -50,15 +50,15 @@ En el test test_lavadero_unittest.py hay que cambiar lo siguiente:
 ![alt text](image-6.png)
 
 ## Para ejecutar las pruebas hay que hacer los siguientes pasos:
-1. Hay que activar primero el venv
+1. Hay que activar primero crear el ven  y despues activarlo
 
 ![alt text](image-8.png)
 
-2. 
+
 ![alt text](image-9.png)
 
 
-- **Al terminar de corregir los fallos y a la hora de hacer los test tiene que slir que estan todas pasadas**:
+- **Al terminar de corregir los fallos y a la hora de hacer los test tiene que salir que estan todas pasadas**:
 
 ![alt text](image-7.png)
 
