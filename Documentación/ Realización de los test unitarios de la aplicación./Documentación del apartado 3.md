@@ -1,4 +1,25 @@
-**Apartado 3.** A partir de los resultados de los tests, se deben corregir también los problemas encontrados en el código hasta que todos los tests sean correctos.
+### **Código utilizado en los unnitest**:
+- **Test 1**: este el código utilizado en el test 1
+
+![alt text](image-10.png)
+
+- **Test2**:este el código utilizado en el test 2
+
+![alt text](image-11.png)
+
+- **Test3**:este el código utilizado en el test 3
+
+![alt text](image-12.png)
+
+- **Test4-8**:este el código utilizado en el test 4-8
+
+![alt text](image-13.png)
+
+- **Test9-14**:este el código utilizado en el test 9-14
+
+![alt text](image-14.png)
+
+### **Apartado 3.** A partir de los resultados de los tests, se deben corregir también los problemas encontrados en el código hasta que todos los tests sean correctos.
 
 1. El primer error que me he encontrado es en archivo unittest.py es el siguiente:
 - **Causa**
